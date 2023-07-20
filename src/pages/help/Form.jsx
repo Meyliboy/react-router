@@ -6,11 +6,11 @@ const Form = () => {
         <hr />
         <div className="form-container">
             <form>
-                <label>
+                <label className="form-control">
                     <span>Your Email:</span>
                     <input type="text" />
                 </label>
-                <label>
+                <label className="form-control">
                     <span>Your Message:</span>
                     <textarea ></textarea>
                 </label>
