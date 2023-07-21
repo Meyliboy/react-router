@@ -7,11 +7,12 @@ const RootLayout = () => {
         <nav className="App">
             <h1>My articls</h1>
             <NavLink to="/">Home</NavLink>
+            <NavLink to='/articles'>Articles</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
         </nav>
     </header>
-    <main>
+    <main className="App">
         <Outlet/>
     </main>
     <footer></footer>
