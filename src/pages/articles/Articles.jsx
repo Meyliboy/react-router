@@ -21,7 +21,7 @@ const Articles = () => {
                 Author: <i>{article.author}</i>
               </p>
 
-              <NavLink to=''>Read More</NavLink>
+              <NavLink to={`/articles/${article.id}`}>Learn More</NavLink>
             </div>
           );
         })}

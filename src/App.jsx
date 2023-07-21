@@ -12,6 +12,7 @@ import Faq from "./pages/help/Faq"
 import Form from "./pages/help/Form"
 import PageNotFound from "./pages/PageNotFound";
 import Articles from "./pages/articles/Articles";
+import ArticlesDetail from "./pages/articles/ArticlesDetail";
 
 import RootLayout from "./layout/RootLayout";
 import ContactLayout from "./layout/ContactLayout";
@@ -29,6 +30,7 @@ const App = () => {
         </Route>
         <Route path="articles" element={<ArticlesLayout/>}>
           <Route index element={<Articles/>}/>
+          <Route path=":id" element={<ArticlesDetail/>}/>
         </Route>
 
 
